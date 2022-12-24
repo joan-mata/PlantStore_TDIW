@@ -1,0 +1,154 @@
+/* MENU */
+
+#nav-menu{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-menu ul {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: dashed 2px #cdc9c3;
+    border-bottom: dashed 2px #cdc9c3;
+}
+
+#nav-menu ul li {
+    padding: 10px;
+    list-style:none;
+}
+
+#nav-menu ul li a {
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* CATEGORIAS */
+
+.category {
+    border: dashed 2px #cdc9c3;
+    height: 270px;
+    width: 150px;
+    margin: 25px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.category img{
+    width: 150px;
+    margin-top: 60px;
+}
+
+.category a {
+    font-size: larger;
+}
+
+.category:hover{
+    border: dashed 2px grey;
+    cursor: pointer;
+}
+
+.category-menu:hover{
+    cursor: pointer;
+}
+
+/* CART VISIBLE */
+
+#cabas-container{
+    position: fixed;
+    float: right;
+    height: 80%;
+    margin-top: 9%;
+    margin-bottom: 10%;
+    width: 12%;
+    margin-left: 86%;
+}
+
+#cabas{
+    border: dashed 2px #cdc9c3;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+#cabas-title{
+    height: 5%;
+    padding-bottom:10px;
+}
+
+#cabas-list{
+    height: 70%;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: dashed 2px #cdc9c3;
+    border-bottom: dashed 2px #cdc9c3;
+}
+
+#cabas-list ul{
+    /* align-items: center; */
+    text-align:left;
+
+}
+
+#cabas-list ul li {
+    margin: 5px;
+    list-style:none;
+}
+
+#cabas-price{
+    margin-top: 5px;
+    height: 5%;
+}
+#cabas-purchase{
+    height: 5%;
+}
+
+/* SEARCH*/
+
+.search_browser_container{
+    width:350px;
+    float: left;
+    margin-left: 82%;
+}
+
+/* .search_browser_container{
+    position: fixed; 
+    float: right;
+    margin-top: 7%;
+    margin-left: 82%;
+} */
+
+#logo-search{
+    width: 30px;
+}
+
+#logo-search:hover{
+    cursor: pointer;
+}
+
+.search_browser_container {
+    align-items: center;
+    display:flex;
+}
+
+.search_browser_container button{
+    border: none;
+}
+
+.search_browser_container input{
+    height: 37px;
+    width:220px;
+}

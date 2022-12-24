@@ -1,0 +1,42 @@
+#div-form{
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#div-form form{
+    width: 25%;
+    border: dashed 2px #cdc9c3;
+    margin:0 auto;
+    padding: 3%;
+}
+
+#div-form form input{
+    margin:20px;
+}
+
+
+#div-form form input[type=submit]{
+    margin-top: 30px;
+    border: solid 1px #cdc9c3;
+    padding: 14px 40px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #373a40;
+    letter-spacing: 1.5px;
+}
+
+#div-form form input:hover{
+   background-color:#e4e1e2;
+}
+
+
+#div-form form label{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    color: #373a40;
+}
+

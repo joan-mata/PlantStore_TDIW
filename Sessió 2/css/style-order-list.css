@@ -1,0 +1,30 @@
+#orders-container{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.order{
+    margin-bottom: 50px;
+    border-top: dashed 2px #cdc9c3;
+    border-bottom: dashed 2px #cdc9c3;
+    width:45%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.order-dates{
+    border-bottom: dashed 1.5px #cdc9c3;
+    text-align: left;
+}
+
+.order-products{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.order-total{
+    text-align: right;
+}
